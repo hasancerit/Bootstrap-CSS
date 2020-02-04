@@ -12,13 +12,43 @@
     <link rel="stylesheet" type="text/css" href="css/main.css" />
 
     <title>Golden Website</title>
+
+    <style>
+        .container{
+            background-color: yellow;
+            border: 1px solid blue;
+            margin-top: 200px;
+            max-width: 750px;
+        }
+
+        .row{
+            background-color: aqua;
+            height: 140px;
+            padding-top: 20px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .sutun{
+            background-color: red;
+            border: 1px solid black;
+            height: 100px;
+        }
+    </style>
 </head>
 
 <body>
-
-    <div>
-        <div class="test">
-            <i class="fab fa-app-store-ios fa-4x"></i>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 sutun">
+                Sütun 1
+            </div>
+            <div class="col-sm-4 sutun">
+                Sütun 2
+            </div>
+            <div class="col-sm-4 sutun">
+                Sütun 3
+            </div>
         </div>
     </div>
 
