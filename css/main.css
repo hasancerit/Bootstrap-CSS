@@ -147,8 +147,79 @@ a.nav-link:hover{
 
 
 
+#aboutus{
+    padding : 120px 0px;
+}
+
+.aboutus-top h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+.aboutus-top p{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-size: 13px;
+    color: #777;
+    margin-bottom: 70px;
+}
+
+.aboutus-content .row{
+    margin-bottom: 90px;
+}
+
+.aboutus-content h5{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.aboutus-content p{
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.aboutus-content{
+    position: relative;
+}
+
+.aboutus-content::before{
+    top : 0;
+    bottom : 0;
+    position: absolute;
+    content : "";
+    width: 4px;
+    background-color: #f1f1f1;
+    left: 50%;
+    margin-left: -2px;
+}
+
+.about-circle{
+  
+    position: relative;
+}
+
+.about-circle p{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.about-circle::before{
+    top : 0;
+    bottom: 0;
+    position: absolute;
+    content : "";
+    width: 150px;
+    height: 150px;
+    background-color: #fed136;
+    border-radius: 150px;
+    border: 6px  solid #f1f1f1;
+    left: 50%;
+    margin-left: -78px;
+}
 
 
-
-
-
+.yellow-text{
+    position: relative;
+    text-align: center;
+    padding-top: 30px;
+}
