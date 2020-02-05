@@ -19,6 +19,7 @@ body,
 .fixed-top{
     width: 1140px;
     margin: 20px auto;
+    transition: 0.2s all linear;
 }
 
 h1{
@@ -353,3 +354,34 @@ textarea{
 .golden-form-element{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+#footer{
+    padding : 20px 0px;
+}
+
+#footer p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-size: 12px;
+}
+
+.footer-icon{
+    display: inline;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+
+.footer-icons{
+    list-style-type: none;
+    margin : 0;
+    padding : 0;
+}
+
+.fixed-top.change-fix-top{
+    margin-top : 0px;
+    background-color: black;
+    width: 100% !important;
+}
+
+
+
